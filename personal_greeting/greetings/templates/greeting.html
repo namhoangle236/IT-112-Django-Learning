@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greeting</title>
+  </head>
+  <body>
+    {% if user_name %}
+    <h1>Hello {{ user_name }}!</h1>
+    {% else %}
+    <h1>Hello rando, whoever you are!</h1>
+    {% endif %}
+  </body>
+</html>
